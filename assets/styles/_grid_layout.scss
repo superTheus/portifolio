@@ -1,0 +1,27 @@
+@import "colors";
+* {
+    padding: 0;
+    margin: 0;
+    background-color: $dark;
+}
+
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh auto 10vh;
+}
+
+.header {
+    grid-row: 1/1;
+    grid-column: 1/1;
+}
+
+.article {
+    grid-row: 1/1;
+    grid-column: 2/2;
+}
+
+.footer {
+    grid-row: 1/1;
+    grid-column: 3/3;
+}

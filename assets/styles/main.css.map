@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACCA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,gBAAgB,ECDb,OAAO;CDEb;;AAED,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,GAAG;EAC1B,kBAAkB,EAAE,cAAc;CACrC;;AAED,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,GAAG;EACb,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,GAAG;EACb,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,GAAG;EACb,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "main.scss",
+        "_grid_layout.scss",
+        "_colors.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
