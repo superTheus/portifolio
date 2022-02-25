@@ -1,0 +1,13 @@
+@import 'colors';
+
+.eclipse {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $primaryLight;
+    font-size: 24px;
+}

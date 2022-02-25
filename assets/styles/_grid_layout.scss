@@ -5,23 +5,35 @@
     background-color: $dark;
 }
 
+@mixin limits-layout {
+    max-width: 1440px;
+    min-width: 400px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 60px;
+}
+
 .wrap {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40vh auto 10vh;
 }
 
-.header {
+header {
+    @include limits-layout;
+    margin: auto;
     grid-row: 1/1;
     grid-column: 1/1;
 }
 
-.article {
+article {
+    @include limits-layout;
     grid-row: 1/1;
     grid-column: 2/2;
 }
 
-.footer {
+footer {
+    @include limits-layout;
     grid-row: 1/1;
     grid-column: 3/3;
 }

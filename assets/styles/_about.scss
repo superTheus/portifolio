@@ -1,0 +1,20 @@
+@import 'colors';
+
+
+#about{
+    width: 55%;
+    max-width: 775px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    color: $paragraph;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.8;
+
+    h1 {
+        color: $white;
+        text-align: left;
+        font-size: 32px;
+        margin: 20px 0px;
+    }
+}
