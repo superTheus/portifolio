@@ -1,0 +1,47 @@
+@import 'colors';
+@import 'defaults';
+
+#projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_projects{
+    @include titles;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+@for $i from 1 through 3 {
+    .projects-#{$i} {
+        width: 300px;
+        height: 200px;
+        background-color: $black;
+        border: 0.5px solid $primaryLight;
+        margin: 20px;
+        padding: 25px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .projects-img {
+            width: 300px;
+            height: 130px;
+            background-color: #000;
+        }
+
+        h3, p {
+            color: $white;
+            font-family: 'DM Sans', sans-serif;
+            background-color: $black;
+        }
+
+        p {
+            color: $paragraph;
+        }
+    }
+}
