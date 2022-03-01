@@ -1,0 +1,13 @@
+@mixin limits-layout {
+    max-width: 1440px;
+    min-width: 400px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 60px;
+}
+
+@mixin titles {
+    font-size: 32px;
+    color: $white;
+    font-family: 'DM Sans', sans-serif;
+}
