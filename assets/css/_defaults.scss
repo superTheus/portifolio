@@ -1,3 +1,8 @@
+@import 'colors';
+
+$fontPrimary: "Spartan", sans-serif;
+$fontSecondary: 'DM Sans', sans-serif;
+
 @mixin limits-layout {
     max-width: 1440px;
     min-width: 400px;
@@ -9,5 +14,21 @@
 @mixin titles {
     font-size: 32px;
     color: $white;
-    font-family: 'DM Sans', sans-serif;
+    font-family: $fontSecondary;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
+
+@mixin  defaultTrasition($tag) {
+    #{$tag} {
+        transition: 0.5s;   
+    }
+
+    #{$tag}:hover {
+        color: $white;
+    }
+}
+
+@include defaultTrasition(#{p});

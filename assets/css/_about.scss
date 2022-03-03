@@ -1,4 +1,3 @@
-@import 'colors';
 @import 'defaults';
 
 
@@ -9,7 +8,7 @@
     font-size: 18px;
     text-align: center;
     color: $paragraph;
-    font-family: 'DM Sans', sans-serif;
+    font-family: $fontSecondary;
     line-height: 1.8;
 
     h1 {
