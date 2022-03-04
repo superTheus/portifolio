@@ -4,7 +4,6 @@ $fontPrimary: "Spartan", sans-serif;
 $fontSecondary: 'DM Sans', sans-serif;
 
 @mixin limits-layout {
-    max-width: 1440px;
     min-width: 400px;
     width: 90%;
     margin: auto;

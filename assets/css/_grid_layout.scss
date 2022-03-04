@@ -6,10 +6,10 @@
     background-color: $dark;
 }
 
-.wrap {
+#wrap {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40vh auto 10vh;
+    grid-template-rows: auto auto 5vh;
 }
 
 header {
@@ -21,12 +21,11 @@ header {
 
 article {
     @include limits-layout;
-    grid-row: 1/1;
-    grid-column: 2/2;
+    grid-row: 2/2;
+    grid-column: 1/1;
 }
 
 footer {
-    overflow: both;
-    grid-row: 1/1;
-    grid-column: 3/3;
+    grid-row: 3/3;
+    grid-column: 1/1;
 }
