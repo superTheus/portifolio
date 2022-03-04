@@ -1,4 +1,4 @@
-@import "colors";
+@import "defaults";
 
 .eclipse {
     width: 62px;
@@ -10,6 +10,10 @@
     align-items: center;
     color: $primaryLight;
     font-size: 24px;
+
+    i {
+        background-color: $black;
+    }
 }
 
 #contact {
@@ -27,7 +31,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-family: 'DM Sans', sans-serif;
+        font-family: $fontSecondary;
          
         h3 {
             color: $white;
@@ -37,5 +41,7 @@
             color: $paragraph;
             text-decoration: none;
         }
+
+        @include defaultTrasition(#{a});
     }
 }
