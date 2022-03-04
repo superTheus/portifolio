@@ -7,6 +7,7 @@
 @import "contact";
 @import "projects";
 @import "skills";
+@import "responsive";
 
 
 footer {
@@ -14,7 +15,6 @@ footer {
     background-color: $black;
     text-align: center;
     color: $white;
-
     p {
         font-size: 10pt;
         background-color: $black;

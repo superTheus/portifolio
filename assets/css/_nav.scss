@@ -106,6 +106,24 @@ nav {
     }
 }
 
+.menu-lateral{
+    background-color: $dark;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.menu-hamburguer{
+    color: $white;
+    font-size: 24px;
+    display: none;
+}
+
+.menu-hamburguer:hover{
+    cursor: pointer;
+}
+
 @keyframes borderMenu {
     from {
         width: 0%;

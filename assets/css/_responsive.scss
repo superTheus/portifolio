@@ -1,0 +1,55 @@
+@import 'defaults';
+
+@media (max-width: 1100px){
+    nav {
+
+        h1 {
+            display: none;
+        }
+
+        ul {
+            width: 70%;
+        }
+    }
+
+    .banner {
+        flex-direction: column;
+        &__apresentation {
+            width: 100% !important;
+        }
+    }
+
+    .image {
+        display: none !important;
+    }
+    
+    @for $i from 1 through 6 {
+        .skill__#{$i} {
+            width: 120px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $black;
+            border: 1px solid $blackTwo;
+            position: relative;
+            transition: 0.5s;
+
+    
+            img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+
+    #about{
+        width: 70%;
+        font-size: 16px;
+    }
+
+    footer{
+        width: 100%;
+        padding: 0;
+    }
+}

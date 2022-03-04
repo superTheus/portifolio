@@ -1,10 +1,11 @@
 @import 'defaults';
 
 #skills {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -32,4 +33,4 @@
             color: $primaryLight;
         }
     }
- }
+}
