@@ -10,6 +10,13 @@ $fontSecondary: 'DM Sans', sans-serif;
     padding: 20px 60px;
 }
 
+@mixin limits-layout-790 {
+    min-width: 400px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 30px;
+}
+
 @mixin titles {
     font-size: 32px;
     color: $white;
@@ -20,9 +27,9 @@ $fontSecondary: 'DM Sans', sans-serif;
     }
 }
 
-@mixin  defaultTrasition($tag) {
+@mixin defaultTrasition($tag) {
     #{$tag} {
-        transition: 0.5s;   
+        transition: 0.5s;
     }
 
     #{$tag}:hover {

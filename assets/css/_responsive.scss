@@ -1,6 +1,12 @@
 @import 'defaults';
 
-@media (max-width: 1100px){
+@media (max-width: 1100px) {
+
+    header,
+    article {
+        @include limits-layout-790;
+    }
+
     nav {
 
         h1 {
@@ -8,12 +14,13 @@
         }
 
         ul {
-            width: 70%;
+            width: 100%;
         }
     }
 
     .banner {
         flex-direction: column;
+
         &__apresentation {
             width: 100% !important;
         }
@@ -22,7 +29,7 @@
     .image {
         display: none !important;
     }
-    
+
     @for $i from 1 through 6 {
         .skill__#{$i} {
             width: 120px;
@@ -35,7 +42,7 @@
             position: relative;
             transition: 0.5s;
 
-    
+
             img {
                 width: 70px;
                 height: 70px;
@@ -43,13 +50,26 @@
         }
     }
 
-    #about{
+    #about {
         width: 70%;
         font-size: 16px;
     }
 
-    footer{
+    footer {
         width: 100%;
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #about {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    nav {
+        ul {
+            font-size: 14px;
+        }
     }
 }

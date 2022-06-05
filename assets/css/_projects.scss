@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.title_projects{
+.title_projects {
     @include titles;
     text-align: center;
     margin-top: 100px;
@@ -18,7 +18,7 @@
 @for $i from 1 through 3 {
     .projects-#{$i} {
         width: 300px;
-        height: 200px;
+        height: 250px;
         background-color: $black;
         border: 0.5px solid $primaryLight;
         margin: 20px;
@@ -28,12 +28,14 @@
         justify-content: space-between;
 
         .projects-img {
-            width: 300px;
-            height: 130px;
+            max-width: 300px;
+            height: 180px;
             background-color: #000;
         }
 
-        h3, p {
+        h3,
+        p {
+            margin-top: 10px;
             color: $white;
             font-family: $fontSecondary;
             background-color: $black;

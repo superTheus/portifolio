@@ -20,6 +20,15 @@ p:hover {
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   background-color: #171717;
 }
 
@@ -552,7 +561,7 @@ p:hover {
 
 .projects-1 {
   width: 300px;
-  height: 200px;
+  height: 250px;
   background-color: #212121;
   border: 0.5px solid #BD67D2;
   margin: 20px;
@@ -570,12 +579,14 @@ p:hover {
 }
 
 .projects-1 .projects-img {
-  width: 300px;
-  height: 130px;
+  max-width: 300px;
+  height: 180px;
   background-color: #000;
 }
 
-.projects-1 h3, .projects-1 p {
+.projects-1 h3,
+.projects-1 p {
+  margin-top: 10px;
   color: #F9F9F9;
   font-family: "DM Sans", sans-serif;
   background-color: #212121;
@@ -596,7 +607,7 @@ p:hover {
 
 .projects-2 {
   width: 300px;
-  height: 200px;
+  height: 250px;
   background-color: #212121;
   border: 0.5px solid #BD67D2;
   margin: 20px;
@@ -614,12 +625,14 @@ p:hover {
 }
 
 .projects-2 .projects-img {
-  width: 300px;
-  height: 130px;
+  max-width: 300px;
+  height: 180px;
   background-color: #000;
 }
 
-.projects-2 h3, .projects-2 p {
+.projects-2 h3,
+.projects-2 p {
+  margin-top: 10px;
   color: #F9F9F9;
   font-family: "DM Sans", sans-serif;
   background-color: #212121;
@@ -640,7 +653,7 @@ p:hover {
 
 .projects-3 {
   width: 300px;
-  height: 200px;
+  height: 250px;
   background-color: #212121;
   border: 0.5px solid #BD67D2;
   margin: 20px;
@@ -658,12 +671,14 @@ p:hover {
 }
 
 .projects-3 .projects-img {
-  width: 300px;
-  height: 130px;
+  max-width: 300px;
+  height: 180px;
   background-color: #000;
 }
 
-.projects-3 h3, .projects-3 p {
+.projects-3 h3,
+.projects-3 p {
+  margin-top: 10px;
   color: #F9F9F9;
   font-family: "DM Sans", sans-serif;
   background-color: #212121;
@@ -700,12 +715,13 @@ p:hover {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 10px 20px;
 }
 
 .skill__1 {
@@ -898,11 +914,18 @@ p:hover {
 }
 
 @media (max-width: 1100px) {
+  header,
+  article {
+    min-width: 400px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 30px;
+  }
   nav h1 {
     display: none;
   }
   nav ul {
-    width: 70%;
+    width: 100%;
   }
   .banner {
     -webkit-box-orient: vertical;
@@ -1055,6 +1078,16 @@ p:hover {
   footer {
     width: 100%;
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #about {
+    width: 100%;
+    font-size: 14px;
+  }
+  nav ul {
+    font-size: 14px;
   }
 }
 
