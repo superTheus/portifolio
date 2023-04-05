@@ -131,9 +131,6 @@ nav {
 nav a {
   text-decoration-color: #894F97;
 }
-nav a a:hover {
-  color: #894F97;
-}
 nav h1 {
   width: 60%;
   color: #5C2A69;
@@ -154,6 +151,9 @@ nav ul li {
 nav ul li a {
   color: #F9F9F9;
   text-decoration: none;
+}
+nav ul li a:hover {
+  color: #F9F9F9;
 }
 nav ul li div {
   width: 0%;

@@ -4,12 +4,14 @@ header {
     display: flex;
     flex-direction: column;
     font-family: $fontPrimary;
+
     .banner {
         display: flex;
         padding: 50px 0px;
 
         &__apresentation {
             width: 60%;
+
             p {
                 color: $paragraph;
                 font-size: 18px;
@@ -51,6 +53,7 @@ header {
             &:hover {
                 box-shadow: 7px 7px darken($primaryLight, 20%), -7px -7px lighten($primaryLight, 20%);
                 cursor: pointer;
+
                 &::before {
                     border: 0px;
                 }
@@ -64,17 +67,16 @@ nav {
     width: 100%;
     justify-content: space-between;
     padding: 20px 0px;
+
     a {
         text-decoration-color: $primaryNormal;
-
-        a:hover {
-            color: $primaryNormal;
-        }
     }
+
     h1 {
         width: 60%;
         color: $primaryBold;
     }
+
     ul {
         font-size: 18px;
         width: 40%;
@@ -91,6 +93,10 @@ nav {
             a {
                 color: $white;
                 text-decoration: none;
+            }
+
+            a:hover {
+                color: $white;
             }
 
             div {
@@ -111,7 +117,7 @@ nav {
     }
 }
 
-.menu-lateral{
+.menu-lateral {
     background-color: $dark;
     z-index: 1000;
     width: 100vw;
@@ -119,13 +125,13 @@ nav {
     position: absolute;
 }
 
-.menu-hamburguer{
+.menu-hamburguer {
     color: $white;
     font-size: 24px;
     display: none;
 }
 
-.menu-hamburguer:hover{
+.menu-hamburguer:hover {
     cursor: pointer;
 }
 
