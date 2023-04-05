@@ -32,11 +32,12 @@ header {
             color: $white;
         }
 
-        button {
+        .button-contact {
             border: none;
             background-color: $primaryLight;
             padding: 15px;
             color: $white;
+            text-decoration: none;
 
             min-width: 130px;
             position: relative;
