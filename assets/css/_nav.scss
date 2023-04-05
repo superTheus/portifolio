@@ -66,6 +66,10 @@ nav {
     padding: 20px 0px;
     a {
         text-decoration-color: $primaryNormal;
+
+        a:hover {
+            color: $primaryNormal;
+        }
     }
     h1 {
         width: 60%;

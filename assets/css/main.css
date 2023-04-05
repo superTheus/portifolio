@@ -131,6 +131,9 @@ nav {
 nav a {
   text-decoration-color: #894F97;
 }
+nav a a:hover {
+  color: #894F97;
+}
 nav h1 {
   width: 60%;
   color: #5C2A69;
@@ -417,8 +420,7 @@ p:hover {
 }
 .projects-1 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-1 h3,
 .projects-1 p {
@@ -456,8 +458,7 @@ p:hover {
 }
 .projects-2 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-2 h3,
 .projects-2 p {
@@ -495,8 +496,7 @@ p:hover {
 }
 .projects-3 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-3 h3,
 .projects-3 p {
@@ -534,8 +534,7 @@ p:hover {
 }
 .projects-4 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-4 h3,
 .projects-4 p {
@@ -573,8 +572,7 @@ p:hover {
 }
 .projects-5 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-5 h3,
 .projects-5 p {
@@ -612,8 +610,7 @@ p:hover {
 }
 .projects-6 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-6 h3,
 .projects-6 p {
@@ -651,8 +648,7 @@ p:hover {
 }
 .projects-7 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-7 h3,
 .projects-7 p {
@@ -690,8 +686,7 @@ p:hover {
 }
 .projects-8 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-8 h3,
 .projects-8 p {
@@ -729,8 +724,7 @@ p:hover {
 }
 .projects-9 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-9 h3,
 .projects-9 p {
@@ -768,8 +762,7 @@ p:hover {
 }
 .projects-10 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-10 h3,
 .projects-10 p {
@@ -807,8 +800,7 @@ p:hover {
 }
 .projects-11 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-11 h3,
 .projects-11 p {
@@ -846,8 +838,7 @@ p:hover {
 }
 .projects-12 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-12 h3,
 .projects-12 p {
@@ -885,8 +876,7 @@ p:hover {
 }
 .projects-13 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-13 h3,
 .projects-13 p {
@@ -924,8 +914,7 @@ p:hover {
 }
 .projects-14 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-14 h3,
 .projects-14 p {
@@ -963,8 +952,7 @@ p:hover {
 }
 .projects-15 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-15 h3,
 .projects-15 p {
@@ -1002,8 +990,7 @@ p:hover {
 }
 .projects-16 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-16 h3,
 .projects-16 p {
@@ -1041,8 +1028,7 @@ p:hover {
 }
 .projects-17 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-17 h3,
 .projects-17 p {
@@ -1080,8 +1066,7 @@ p:hover {
 }
 .projects-18 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-18 h3,
 .projects-18 p {
@@ -1119,8 +1104,7 @@ p:hover {
 }
 .projects-19 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-19 h3,
 .projects-19 p {
@@ -1158,8 +1142,7 @@ p:hover {
 }
 .projects-20 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-20 h3,
 .projects-20 p {
@@ -1197,8 +1180,7 @@ p:hover {
 }
 .projects-21 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-21 h3,
 .projects-21 p {
@@ -1236,8 +1218,7 @@ p:hover {
 }
 .projects-22 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-22 h3,
 .projects-22 p {
@@ -1275,8 +1256,7 @@ p:hover {
 }
 .projects-23 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-23 h3,
 .projects-23 p {
@@ -1314,8 +1294,7 @@ p:hover {
 }
 .projects-24 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-24 h3,
 .projects-24 p {
@@ -1353,8 +1332,7 @@ p:hover {
 }
 .projects-25 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-25 h3,
 .projects-25 p {
@@ -1392,8 +1370,7 @@ p:hover {
 }
 .projects-26 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-26 h3,
 .projects-26 p {
@@ -1431,8 +1408,7 @@ p:hover {
 }
 .projects-27 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-27 h3,
 .projects-27 p {
@@ -1470,8 +1446,7 @@ p:hover {
 }
 .projects-28 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-28 h3,
 .projects-28 p {
@@ -1509,8 +1484,7 @@ p:hover {
 }
 .projects-29 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-29 h3,
 .projects-29 p {
@@ -1548,8 +1522,7 @@ p:hover {
 }
 .projects-30 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-30 h3,
 .projects-30 p {
@@ -1587,8 +1560,7 @@ p:hover {
 }
 .projects-31 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-31 h3,
 .projects-31 p {
@@ -1626,8 +1598,7 @@ p:hover {
 }
 .projects-32 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-32 h3,
 .projects-32 p {
@@ -1665,8 +1636,7 @@ p:hover {
 }
 .projects-33 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-33 h3,
 .projects-33 p {
@@ -1704,8 +1674,7 @@ p:hover {
 }
 .projects-34 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-34 h3,
 .projects-34 p {
@@ -1743,8 +1712,7 @@ p:hover {
 }
 .projects-35 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-35 h3,
 .projects-35 p {
@@ -1782,8 +1750,7 @@ p:hover {
 }
 .projects-36 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-36 h3,
 .projects-36 p {
@@ -1821,8 +1788,7 @@ p:hover {
 }
 .projects-37 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-37 h3,
 .projects-37 p {
@@ -1860,8 +1826,7 @@ p:hover {
 }
 .projects-38 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-38 h3,
 .projects-38 p {
@@ -1899,8 +1864,7 @@ p:hover {
 }
 .projects-39 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-39 h3,
 .projects-39 p {
@@ -1938,8 +1902,7 @@ p:hover {
 }
 .projects-40 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-40 h3,
 .projects-40 p {
@@ -1977,8 +1940,7 @@ p:hover {
 }
 .projects-41 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-41 h3,
 .projects-41 p {
@@ -2016,8 +1978,7 @@ p:hover {
 }
 .projects-42 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-42 h3,
 .projects-42 p {
@@ -2055,8 +2016,7 @@ p:hover {
 }
 .projects-43 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-43 h3,
 .projects-43 p {
@@ -2094,8 +2054,7 @@ p:hover {
 }
 .projects-44 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-44 h3,
 .projects-44 p {
@@ -2133,8 +2092,7 @@ p:hover {
 }
 .projects-45 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-45 h3,
 .projects-45 p {
@@ -2172,8 +2130,7 @@ p:hover {
 }
 .projects-46 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-46 h3,
 .projects-46 p {
@@ -2211,8 +2168,7 @@ p:hover {
 }
 .projects-47 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-47 h3,
 .projects-47 p {
@@ -2250,8 +2206,7 @@ p:hover {
 }
 .projects-48 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-48 h3,
 .projects-48 p {
@@ -2289,8 +2244,7 @@ p:hover {
 }
 .projects-49 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-49 h3,
 .projects-49 p {
@@ -2328,8 +2282,7 @@ p:hover {
 }
 .projects-50 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-50 h3,
 .projects-50 p {
@@ -2367,8 +2320,7 @@ p:hover {
 }
 .projects-51 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-51 h3,
 .projects-51 p {
@@ -2406,8 +2358,7 @@ p:hover {
 }
 .projects-52 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-52 h3,
 .projects-52 p {
@@ -2445,8 +2396,7 @@ p:hover {
 }
 .projects-53 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-53 h3,
 .projects-53 p {
@@ -2484,8 +2434,7 @@ p:hover {
 }
 .projects-54 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-54 h3,
 .projects-54 p {
@@ -2523,8 +2472,7 @@ p:hover {
 }
 .projects-55 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-55 h3,
 .projects-55 p {
@@ -2562,8 +2510,7 @@ p:hover {
 }
 .projects-56 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-56 h3,
 .projects-56 p {
@@ -2601,8 +2548,7 @@ p:hover {
 }
 .projects-57 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-57 h3,
 .projects-57 p {
@@ -2640,8 +2586,7 @@ p:hover {
 }
 .projects-58 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-58 h3,
 .projects-58 p {
@@ -2679,8 +2624,7 @@ p:hover {
 }
 .projects-59 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-59 h3,
 .projects-59 p {
@@ -2718,8 +2662,7 @@ p:hover {
 }
 .projects-60 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-60 h3,
 .projects-60 p {
@@ -2757,8 +2700,7 @@ p:hover {
 }
 .projects-61 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-61 h3,
 .projects-61 p {
@@ -2796,8 +2738,7 @@ p:hover {
 }
 .projects-62 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-62 h3,
 .projects-62 p {
@@ -2835,8 +2776,7 @@ p:hover {
 }
 .projects-63 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-63 h3,
 .projects-63 p {
@@ -2874,8 +2814,7 @@ p:hover {
 }
 .projects-64 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-64 h3,
 .projects-64 p {
@@ -2913,8 +2852,7 @@ p:hover {
 }
 .projects-65 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-65 h3,
 .projects-65 p {
@@ -2952,8 +2890,7 @@ p:hover {
 }
 .projects-66 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-66 h3,
 .projects-66 p {
@@ -2991,8 +2928,7 @@ p:hover {
 }
 .projects-67 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-67 h3,
 .projects-67 p {
@@ -3030,8 +2966,7 @@ p:hover {
 }
 .projects-68 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-68 h3,
 .projects-68 p {
@@ -3069,8 +3004,7 @@ p:hover {
 }
 .projects-69 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-69 h3,
 .projects-69 p {
@@ -3108,8 +3042,7 @@ p:hover {
 }
 .projects-70 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-70 h3,
 .projects-70 p {
@@ -3147,8 +3080,7 @@ p:hover {
 }
 .projects-71 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-71 h3,
 .projects-71 p {
@@ -3186,8 +3118,7 @@ p:hover {
 }
 .projects-72 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-72 h3,
 .projects-72 p {
@@ -3225,8 +3156,7 @@ p:hover {
 }
 .projects-73 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-73 h3,
 .projects-73 p {
@@ -3264,8 +3194,7 @@ p:hover {
 }
 .projects-74 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-74 h3,
 .projects-74 p {
@@ -3303,8 +3232,7 @@ p:hover {
 }
 .projects-75 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-75 h3,
 .projects-75 p {
@@ -3342,8 +3270,7 @@ p:hover {
 }
 .projects-76 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-76 h3,
 .projects-76 p {
@@ -3381,8 +3308,7 @@ p:hover {
 }
 .projects-77 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-77 h3,
 .projects-77 p {
@@ -3420,8 +3346,7 @@ p:hover {
 }
 .projects-78 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-78 h3,
 .projects-78 p {
@@ -3459,8 +3384,7 @@ p:hover {
 }
 .projects-79 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-79 h3,
 .projects-79 p {
@@ -3498,8 +3422,7 @@ p:hover {
 }
 .projects-80 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-80 h3,
 .projects-80 p {
@@ -3537,8 +3460,7 @@ p:hover {
 }
 .projects-81 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-81 h3,
 .projects-81 p {
@@ -3576,8 +3498,7 @@ p:hover {
 }
 .projects-82 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-82 h3,
 .projects-82 p {
@@ -3615,8 +3536,7 @@ p:hover {
 }
 .projects-83 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-83 h3,
 .projects-83 p {
@@ -3654,8 +3574,7 @@ p:hover {
 }
 .projects-84 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-84 h3,
 .projects-84 p {
@@ -3693,8 +3612,7 @@ p:hover {
 }
 .projects-85 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-85 h3,
 .projects-85 p {
@@ -3732,8 +3650,7 @@ p:hover {
 }
 .projects-86 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-86 h3,
 .projects-86 p {
@@ -3771,8 +3688,7 @@ p:hover {
 }
 .projects-87 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-87 h3,
 .projects-87 p {
@@ -3810,8 +3726,7 @@ p:hover {
 }
 .projects-88 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-88 h3,
 .projects-88 p {
@@ -3849,8 +3764,7 @@ p:hover {
 }
 .projects-89 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-89 h3,
 .projects-89 p {
@@ -3888,8 +3802,7 @@ p:hover {
 }
 .projects-90 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-90 h3,
 .projects-90 p {
@@ -3927,8 +3840,7 @@ p:hover {
 }
 .projects-91 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-91 h3,
 .projects-91 p {
@@ -3966,8 +3878,7 @@ p:hover {
 }
 .projects-92 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-92 h3,
 .projects-92 p {
@@ -4005,8 +3916,7 @@ p:hover {
 }
 .projects-93 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-93 h3,
 .projects-93 p {
@@ -4044,8 +3954,7 @@ p:hover {
 }
 .projects-94 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-94 h3,
 .projects-94 p {
@@ -4083,8 +3992,7 @@ p:hover {
 }
 .projects-95 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-95 h3,
 .projects-95 p {
@@ -4122,8 +4030,7 @@ p:hover {
 }
 .projects-96 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-96 h3,
 .projects-96 p {
@@ -4161,8 +4068,7 @@ p:hover {
 }
 .projects-97 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-97 h3,
 .projects-97 p {
@@ -4200,8 +4106,7 @@ p:hover {
 }
 .projects-98 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-98 h3,
 .projects-98 p {
@@ -4239,8 +4144,7 @@ p:hover {
 }
 .projects-99 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-99 h3,
 .projects-99 p {
@@ -4278,8 +4182,7 @@ p:hover {
 }
 .projects-100 .projects-img img {
   width: 100%;
-  min-height: 190px;
-  height: auto;
+  height: 190px;
 }
 .projects-100 h3,
 .projects-100 p {
